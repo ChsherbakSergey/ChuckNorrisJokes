@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class CustomButton: UIButton {
     
@@ -26,6 +27,11 @@ class CustomButton: UIButton {
         self.titleLabel?.font = .boldSystemFont(ofSize: titleFontSize)
         self.backgroundColor = backgroundColor
         self.layer.cornerRadius = cornerRadius
+    }
+    
+    func loadJokes(withNumber number: Int, networkManager: NetworkManagerAlamofire) {
+        networkManager.requestJokes(withNumber: number)
+        SVProgressHUD.show()
     }
     
 }

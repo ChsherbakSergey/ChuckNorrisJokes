@@ -40,8 +40,7 @@ final class JokesController: UIViewController {
         guard let number = inputTextField.text, !number.isEmpty, let numberOfJokes = Int(number)  else { return }
         jokesData.removeAll()
         inputTextField.text = nil
-        alamofireNetworkManager.requestJokes(withNumber: numberOfJokes)
-        SVProgressHUD.show()
+        loadButton.loadJokes(withNumber: numberOfJokes, networkManager: alamofireNetworkManager)
     }
     
     //MARK: - Helpers
@@ -100,10 +99,9 @@ extension JokesController: UITextFieldDelegate {
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        let allowedCharacters = "1234567890"
-        let allowedCharacterSet = CharacterSet(charactersIn: allowedCharacters)
-        let typedCharacterSet = CharacterSet(charactersIn: string)
-        return allowedCharacterSet.isSuperset(of: typedCharacterSet)
+        let allowedCharacters = CharacterSet.decimalDigits
+        let characterSet = CharacterSet(charactersIn: string)
+        return allowedCharacters.isSuperset(of: characterSet)
     }
     
 }

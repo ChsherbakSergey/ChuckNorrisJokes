@@ -93,4 +93,3 @@ extension UIColor {
     
     static let appBlueColor = UIColor.rgb(red: 29, green: 161, blue: 242)
 }
-
