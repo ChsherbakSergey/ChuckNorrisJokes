@@ -13,7 +13,7 @@ protocol NetworkManagerAlamofireDelegate: class {
     func didGetResult(with result: [String])
 }
 
-class NetworkManagerAlamofire {
+final class NetworkManagerAlamofire {
     
     weak var delegate: NetworkManagerAlamofireDelegate?
     

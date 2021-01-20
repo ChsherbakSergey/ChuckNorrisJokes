@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A54D8ABB25B834AF007F3C94 /* JokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D8ABA25B834AF007F3C94 /* JokeCell.swift */; };
 		A54EDF4225B77F5000DDA0DF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF4125B77F5000DDA0DF /* NetworkManager.swift */; };
 		A54EDF4625B780E100DDA0DF /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF4525B780E100DDA0DF /* NetworkModel.swift */; };
 		A54EDF8A25B7ABEF00DDA0DF /* LayoutGuideProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF8925B7ABEF00DDA0DF /* LayoutGuideProvider.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		14985B89C41B1F8F4E643A33 /* Pods-ChuckNorrisJokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokes.debug.xcconfig"; path = "Target Support Files/Pods-ChuckNorrisJokes/Pods-ChuckNorrisJokes.debug.xcconfig"; sourceTree = "<group>"; };
 		46DC60DC2CD6F3DCE040D183 /* Pods-ChuckNorrisJokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokes.release.xcconfig"; path = "Target Support Files/Pods-ChuckNorrisJokes/Pods-ChuckNorrisJokes.release.xcconfig"; sourceTree = "<group>"; };
+		A54D8ABA25B834AF007F3C94 /* JokeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCell.swift; sourceTree = "<group>"; };
 		A54EDF4125B77F5000DDA0DF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A54EDF4525B780E100DDA0DF /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		A54EDF8925B7ABEF00DDA0DF /* LayoutGuideProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuideProvider.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				A54EDF9325B7B34300DDA0DF /* CustomButton.swift */,
 				A5D609EF25B74BDB00BC94B0 /* Assets.xcassets */,
 				A5D609F125B74BDB00BC94B0 /* LaunchScreen.storyboard */,
+				A54D8ABA25B834AF007F3C94 /* JokeCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				A54EDFD125B7C11B00DDA0DF /* NetworkManagerAlamofire.swift in Sources */,
 				A5D609E725B74BD900BC94B0 /* AppDelegate.swift in Sources */,
 				A5D60A0125B7554800BC94B0 /* MainTabBarController.swift in Sources */,
+				A54D8ABB25B834AF007F3C94 /* JokeCell.swift in Sources */,
 				A54EDF8E25B7B04000DDA0DF /* CustomLabel.swift in Sources */,
 				A5D609E925B74BD900BC94B0 /* SceneDelegate.swift in Sources */,
 				A54EDF4625B780E100DDA0DF /* NetworkModel.swift in Sources */,

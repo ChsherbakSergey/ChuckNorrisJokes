@@ -11,7 +11,7 @@ final class JokesController: UIViewController {
     //MARK: - Properties
     private let tableView: UITableView = {
         let tableView = UITableView()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(JokeCell.self, forCellReuseIdentifier: JokeCell.identifier)
         tableView.tableFooterView = UIView()
         return tableView
     }()
@@ -81,10 +81,8 @@ extension JokesController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = jokesData[indexPath.row]
-        cell.textLabel?.numberOfLines = 0
-        cell.selectionStyle = .none
+        let cell = tableView.dequeueReusableCell(withIdentifier: JokeCell.identifier, for: indexPath) as! JokeCell
+        cell.configureCell(withModel: jokesData[indexPath.row])
         return cell
     }
     

@@ -6,7 +6,7 @@
 import UIKit
 import SafariServices
 
-class WebViewScreenController: UIViewController {
+final class WebViewScreenController: UIViewController {
     
     //MARK: - Properties
     private lazy var seeAPIButton: CustomButton = {
