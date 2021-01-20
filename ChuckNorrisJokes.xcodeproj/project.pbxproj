@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A54EDF4225B77F5000DDA0DF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF4125B77F5000DDA0DF /* NetworkManager.swift */; };
 		A54EDF4625B780E100DDA0DF /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF4525B780E100DDA0DF /* NetworkModel.swift */; };
-		A54EDF4925B7824A00DDA0DF /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF4825B7824A00DDA0DF /* JokeModel.swift */; };
 		A54EDF8A25B7ABEF00DDA0DF /* LayoutGuideProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF8925B7ABEF00DDA0DF /* LayoutGuideProvider.swift */; };
 		A54EDF8E25B7B04000DDA0DF /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF8D25B7B04000DDA0DF /* CustomLabel.swift */; };
 		A54EDF9125B7B28D00DDA0DF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF9025B7B28D00DDA0DF /* CustomTextField.swift */; };
@@ -31,7 +30,6 @@
 		46DC60DC2CD6F3DCE040D183 /* Pods-ChuckNorrisJokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokes.release.xcconfig"; path = "Target Support Files/Pods-ChuckNorrisJokes/Pods-ChuckNorrisJokes.release.xcconfig"; sourceTree = "<group>"; };
 		A54EDF4125B77F5000DDA0DF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A54EDF4525B780E100DDA0DF /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
-		A54EDF4825B7824A00DDA0DF /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
 		A54EDF8925B7ABEF00DDA0DF /* LayoutGuideProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuideProvider.swift; sourceTree = "<group>"; };
 		A54EDF8D25B7B04000DDA0DF /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		A54EDF9025B7B28D00DDA0DF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -146,7 +144,6 @@
 			children = (
 				A54EDF4125B77F5000DDA0DF /* NetworkManager.swift */,
 				A54EDF4525B780E100DDA0DF /* NetworkModel.swift */,
-				A54EDF4825B7824A00DDA0DF /* JokeModel.swift */,
 				A54EDFD025B7C11B00DDA0DF /* NetworkManagerAlamofire.swift */,
 			);
 			path = Model;
@@ -275,7 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54EDF9125B7B28D00DDA0DF /* CustomTextField.swift in Sources */,
-				A54EDF4925B7824A00DDA0DF /* JokeModel.swift in Sources */,
 				A54EDF4225B77F5000DDA0DF /* NetworkManager.swift in Sources */,
 				A54EDF9425B7B34300DDA0DF /* CustomButton.swift in Sources */,
 				A5D60A0A25B755F500BC94B0 /* WebViewScreenController.swift in Sources */,
