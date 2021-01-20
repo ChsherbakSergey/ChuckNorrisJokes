@@ -113,7 +113,7 @@ extension JokesController: NetworkManagerAlamofireDelegate {
         jokesData = result
         DispatchQueue.main.async {
             self.tableView.reloadData()
-            self.noJokesLabel.isHidden = true
+            self.noJokesLabel.isHidden = self.jokesData.count == 0 ? false : true
             SVProgressHUD.dismiss()
         }
     }
