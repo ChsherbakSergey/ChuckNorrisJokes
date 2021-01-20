@@ -39,9 +39,7 @@ final class WebViewScreenController: UIViewController {
     }
     
     private func presentSafariVC(with url: String) {
-        guard let url = URL(string: url) else {
-            return
-        }
+        guard let url = URL(string: url) else { return }
         let vc = SFSafariViewController(url: url)
         present(vc, animated: true)
     }
