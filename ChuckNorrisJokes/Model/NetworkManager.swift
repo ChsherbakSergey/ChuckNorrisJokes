@@ -9,7 +9,7 @@ import Foundation
 
 protocol NetworkManagerDelegate: class {
     func didFailWithError(error: Error)
-    func didUpdateJokesAgain(_ networkManager: NetworkManager, jokes: [String])
+    func didGetJokes(_ networkManager: NetworkManager, result: [String])
 }
 
 struct NetworkManager {
@@ -38,7 +38,7 @@ struct NetworkManager {
             guard let safeData = data else { return }
             
             if let jokes = parseJSON(safeData) {
-                delegate?.didUpdateJokesAgain(self, jokes: jokes)
+                delegate?.didGetJokes(self, result: jokes)
             }
             
         }
