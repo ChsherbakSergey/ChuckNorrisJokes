@@ -135,9 +135,9 @@
 				A54EDF8D25B7B04000DDA0DF /* CustomLabel.swift */,
 				A54EDF9025B7B28D00DDA0DF /* CustomTextField.swift */,
 				A54EDF9325B7B34300DDA0DF /* CustomButton.swift */,
+				A54D8ABA25B834AF007F3C94 /* JokeCell.swift */,
 				A5D609EF25B74BDB00BC94B0 /* Assets.xcassets */,
 				A5D609F125B74BDB00BC94B0 /* LaunchScreen.storyboard */,
-				A54D8ABA25B834AF007F3C94 /* JokeCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

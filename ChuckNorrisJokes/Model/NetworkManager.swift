@@ -12,7 +12,7 @@ protocol NetworkManagerDelegate: class {
     func didGetJokes(_ networkManager: NetworkManager, result: [String])
 }
 
-struct NetworkManager {
+class NetworkManager {
     
     let baseUrl = "https://api.icndb.com/jokes/random/"
     
@@ -32,13 +32,13 @@ struct NetworkManager {
         let task = session.dataTask(with: url) { (data, response, error) in
 
             if let error = error {
-                delegate?.didFailWithError(error: error)
+                self.delegate?.didFailWithError(error: error)
             }
             
             guard let safeData = data else { return }
             
-            if let jokes = parseJSON(safeData) {
-                delegate?.didGetJokes(self, result: jokes)
+            if let jokes = self.parseJSON(safeData) {
+                self.delegate?.didGetJokes(self, result: jokes)
             }
             
         }
