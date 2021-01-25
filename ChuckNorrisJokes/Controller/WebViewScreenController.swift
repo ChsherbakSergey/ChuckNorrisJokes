@@ -15,24 +15,22 @@ final class WebViewScreenController: UIViewController {
         return button
     }()
     
-    let apiURL = "http://www.icndb.com/api/"
-    
     //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         setInitialUI()
-        presentSafariVC(with: apiURL)
+        presentSafariVC(with: K.apiUrl)
     }
     
     //MARK: - Selectors
     @objc private func handleSeeAPIButton() {
-        presentSafariVC(with: apiURL)
+        presentSafariVC(with: K.apiUrl)
     }
     
     //MARK: - Helpers
     private func setInitialUI() {
         view.backgroundColor = .white
-        navigationItem.title = "API"
+        navigationItem.title = K.webViewScreenController
         view.addSubview(seeAPIButton)
         seeAPIButton.center(inView: view)
         seeAPIButton.setDimensions(width: 200, height: 50)

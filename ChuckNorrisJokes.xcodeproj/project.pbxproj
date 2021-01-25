@@ -15,6 +15,7 @@
 		A54EDF9125B7B28D00DDA0DF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF9025B7B28D00DDA0DF /* CustomTextField.swift */; };
 		A54EDF9425B7B34300DDA0DF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDF9325B7B34300DDA0DF /* CustomButton.swift */; };
 		A54EDFD125B7C11B00DDA0DF /* NetworkManagerAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDFD025B7C11B00DDA0DF /* NetworkManagerAlamofire.swift */; };
+		A554F33025BEFF24001BF5DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554F32F25BEFF24001BF5DF /* Constants.swift */; };
 		A5D609E725B74BD900BC94B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D609E625B74BD900BC94B0 /* AppDelegate.swift */; };
 		A5D609E925B74BD900BC94B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D609E825B74BD900BC94B0 /* SceneDelegate.swift */; };
 		A5D609F025B74BDB00BC94B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D609EF25B74BDB00BC94B0 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		A54EDF9025B7B28D00DDA0DF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A54EDF9325B7B34300DDA0DF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		A54EDFD025B7C11B00DDA0DF /* NetworkManagerAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerAlamofire.swift; sourceTree = "<group>"; };
+		A554F32F25BEFF24001BF5DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A5D609E325B74BD900BC94B0 /* ChuckNorrisJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D609E625B74BD900BC94B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5D609E825B74BD900BC94B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				A5D60A0D25B75E6E00BC94B0 /* Extension.swift */,
 				A54EDF8925B7ABEF00DDA0DF /* LayoutGuideProvider.swift */,
+				A554F32F25BEFF24001BF5DF /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				A54EDF9425B7B34300DDA0DF /* CustomButton.swift in Sources */,
 				A5D60A0A25B755F500BC94B0 /* WebViewScreenController.swift in Sources */,
 				A5D60A0E25B75E6E00BC94B0 /* Extension.swift in Sources */,
+				A554F33025BEFF24001BF5DF /* Constants.swift in Sources */,
 				A54EDFD125B7C11B00DDA0DF /* NetworkManagerAlamofire.swift in Sources */,
 				A5D609E725B74BD900BC94B0 /* AppDelegate.swift in Sources */,
 				A5D60A0125B7554800BC94B0 /* MainTabBarController.swift in Sources */,

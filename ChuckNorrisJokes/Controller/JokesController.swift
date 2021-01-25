@@ -46,7 +46,7 @@ final class JokesController: UIViewController {
     //MARK: - Helpers
     private func setInitialUI() {
         view.backgroundColor = .white
-        navigationItem.title = "Jokes"
+        navigationItem.title = K.jokesController
         //Adding subviews
         view.addSubview(tableView)
         view.addSubview(noJokesLabel)
