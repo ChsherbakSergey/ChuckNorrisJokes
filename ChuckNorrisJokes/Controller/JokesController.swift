@@ -47,12 +47,18 @@ final class JokesController: UIViewController {
     private func setInitialUI() {
         view.backgroundColor = .white
         navigationItem.title = K.jokesController
-        //Adding subviews
+        addViews()
+        layoutViews()
+    }
+    
+    private func addViews() {
         view.addSubview(tableView)
         view.addSubview(noJokesLabel)
         view.addSubview(inputTextField)
         view.addSubview(loadButton)
-        //Layout Views
+    }
+    
+    func layoutViews() {
         tableView.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: inputTextField.topAnchor, right: view.rightAnchor, paddingBottom: 10)
         noJokesLabel.center(inView: view)
         inputTextField.anchor(left: view.leftAnchor, bottom: loadButton.topAnchor, right: view.rightAnchor, paddingLeft: 50, paddingBottom: 20, paddingRight: 50)
